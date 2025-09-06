@@ -11,6 +11,15 @@ class Test_search_input:
     def test_click_DRAW_STRUCTURE(self):
         page = pubchem_home(self.driver)
         page.clickBROWSER_button()
+        values = [
+    "78", "124", "86", "130", "104", "114", "113", "2", "87", "84", "95", "110", "98", "111", "102", "99",
+    "132", "105", "81", "123", "78", "89", "90", "91", "83", "133", "121", "131", "107", "92", "16", "28",
+    "20", "117", "6", "25", "3", "18", "118", "96", "23", "7", "100", "4", "59", "8", "5", "24", "22", "14",
+    "17", "15", "54", "115", "1", "134", "116", "93", "112", "109", "101", "122", "106", "135", "120", "80",
+    "125", "72", "126", "127", "128", "129", "88", "108", "79", "58", "119"
+]
+        
+        #if want to use by select_by_visible_text
         classifications = [
     "Baker Lab, Chemistry Department, The University of North Carolina at Chapel Hill: CCS Classification - Baker Lab",
     "CAMEO Chemicals: CAMEO Chemical Reactivity Classification",
@@ -90,8 +99,7 @@ class Test_search_input:
     "World Register of Marine Species (WoRMS): Biota"
 ]
 
-        for option in classifications:
+        for option in values:
             page = pubchem_home(self.driver)
             page.select_classification(option)
-            
-        self.driver.save_screenshot(os.path.join(screenshots_loc, f"{option}.png"))
+            self.driver.save_screenshot(os.path.join(screenshots_loc, f"{option}.png"))

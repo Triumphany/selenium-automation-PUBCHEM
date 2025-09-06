@@ -25,10 +25,5 @@ class pubchem_home():
     def select_classification(self,name):
         select_elem = self.wait.until(EC.visibility_of_element_located(self.selectCLASSIFICATION_ID))
         select_classification_option_DISPLAY = Select(select_elem)
-        select_classification_option_DISPLAY.select_by_visible_text(name)
+        select_classification_option_DISPLAY.select_by_value(name)
 
-    def make_safe_filename(text: str) -> str:
-    # Replace anything not alphanumeric, dash, or underscore
-        safe = re.sub(r'[^A-Za-z0-9_-]', '_', text)
-    # Optionally, trim length to avoid very long filenames
-        return safe[:100]
