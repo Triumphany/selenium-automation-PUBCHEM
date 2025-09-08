@@ -19,7 +19,8 @@ class Test_search_input:
         
         page.search_input("aspirin")
         page.search_click()
-        page.check_assertion_search()
+        page.check_assertion_search_smile()
+        page.logger.info("Test test_aspirin passed")
         self.driver.save_screenshot(os.path.join(screenshots_loc, "aspirin.png"))
         
 
@@ -28,7 +29,8 @@ class Test_search_input:
         
         page.search_input("2244")
         page.search_click()
-        page.check_assertion_search()
+        page.check_assertion_search_cid()
+        page.logger.info("Test test_aspirin_id passed")
         self.driver.save_screenshot(os.path.join(screenshots_loc, "aspirin_id.png"))
 
     def test_aspirin_smile(self):
@@ -36,7 +38,8 @@ class Test_search_input:
         
         page.search_input("CC(=O)OC1=CC=CC=C1C(=O)O")
         page.search_click()
-        page.check_assertion_search()
+        page.check_assertion_search_smile()
+        page.logger.info("Test test_aspirin_smile passed")
         self.driver.save_screenshot(os.path.join(screenshots_loc, "smile.png"))
 
     def test_aspirin_inchl(self):
@@ -44,7 +47,8 @@ class Test_search_input:
         
         page.search_input("InChI=1S/C9H8O4/c1-6(10)13-8-5-3-2-4-7(8)9(11)12/h2-5H,1H3,(H,11,12)")
         page.search_click()
-        page.check_assertion_search()
+        page.check_assertion_search_smile()
+        page.logger.info("Test test_aspirin_inchl passed")
         self.driver.save_screenshot(os.path.join(screenshots_loc, "inchl.png"))
 
     
