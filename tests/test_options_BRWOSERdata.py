@@ -7,7 +7,7 @@ screenshots_loc = os.path.join(os.path.dirname(__file__), "..", "screenshots", "
 os.makedirs(screenshots_loc, exist_ok=True)
 
 @pytest.mark.usefixtures("setup")
-class Test_search_input:     
+class Test_BROWSERdata_options:     
     def test_click_DRAW_STRUCTURE(self):
         page = pubchem_home(self.driver)
         page.clickBROWSER_button()
