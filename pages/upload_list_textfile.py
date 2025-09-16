@@ -4,11 +4,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
+from utils.logger import get_logger
 class pubchem_home():
     def __init__(self,driver):
         self.driver = driver
         self.wait = WebDriverWait(driver, 15)
+        self.logger = get_logger(self.__class__.__name__)
 
     #locators
 
@@ -36,9 +37,11 @@ class pubchem_home():
     def click_upload_and_type(self):
         upload_button = self.wait.until(EC.element_to_be_clickable(self.upload_id_list_XPATH))
         upload_button.click()
+        self.logger.info(f"UPLOAD button clicked from HOMEPAGE")
 
         select_type_button = self.wait.until(EC.element_to_be_clickable(self.choose_identifier_type_button_XPATH))
         select_type_button.click()
+        self.logger.info(f"TYPE button is clicked ")
 
     #common success message after upload the file and before submission
     def check_success_ORerror_message(self):
@@ -61,63 +64,71 @@ class pubchem_home():
     def search_cid(self,name):
         cid_button = self.wait.until(EC.element_to_be_clickable(self.cid_button_XAPTH))
         cid_button.click()
+        self.logger.info(f"cid file : clicked")
 
         upload_identiFILES_area = self.wait.until(EC.element_to_be_clickable(self.upload_identi_files_area_XPATH))
-        upload_identiFILES_area.clear()
         upload_identiFILES_area.send_keys(name)
+        self.logger.info(f"cid file : uploaded")
 
     def search_sid(self,name):
         sid_button = self.wait.until(EC.element_to_be_clickable(self.sid_button_XPATH))
         sid_button.click()
+        self.logger.info(f"sid file : clicked")
 
         upload_identiFILES_area = self.wait.until(EC.element_to_be_clickable(self.upload_identi_files_area_XPATH))
-        upload_identiFILES_area.clear()
         upload_identiFILES_area.send_keys(name)
+        self.logger.info(f"sid file : uploaded")
 
     def search_aid(self,name):
         aid_button = self.wait.until(EC.element_to_be_clickable(self.aid_button_XPATH))
         aid_button.click()
+        self.logger.info(f"aid file : clicked")
 
         upload_identiFILES_area = self.wait.until(EC.element_to_be_clickable(self.upload_identi_files_area_XPATH))
-        upload_identiFILES_area.clear()
         upload_identiFILES_area.send_keys(name)
+        self.logger.info(f"aid file : uploaded")
 
     def search_geneid(self,name):
         geneid_button = self.wait.until(EC.element_to_be_clickable(self.geneid_button_XPATH))
         geneid_button.click()
+        self.logger.info(f"geneid file : clicked")
 
         upload_identiFILES_area = self.wait.until(EC.element_to_be_clickable(self.upload_identi_files_area_XPATH))
-        upload_identiFILES_area.clear()
         upload_identiFILES_area.send_keys(name)
+        self.logger.info(f"geneid file : uploaded")
 
     def search_protein(self,name):
         protein_button = self.wait.until(EC.element_to_be_clickable(self.protein_accession_button_XPATH))
         protein_button.click()
+        self.logger.info(f"protein file : clicked")
 
         upload_identiFILES_area = self.wait.until(EC.element_to_be_clickable(self.upload_identi_files_area_XPATH))
-        upload_identiFILES_area.clear()
         upload_identiFILES_area.send_keys(name)
+        self.logger.info(f"protein file : uploaded")
 
     def search_pathway(self,name):
         pathway_button = self.wait.until(EC.element_to_be_clickable(self.pathway_button_XPATH))
         pathway_button.click()
+        self.logger.info(f"pathway file : clicked")
 
         upload_identiFILES_area = self.wait.until(EC.element_to_be_clickable(self.upload_identi_files_area_XPATH))
-        upload_identiFILES_area.clear()
         upload_identiFILES_area.send_keys(name)
+        self.logger.info(f"pathway file : uploaded")
 
     def search_pubmed(self,name):
         pubmed_button = self.wait.until(EC.element_to_be_clickable(self.pubmed_button_XPATH))
         pubmed_button.click()
+        self.logger.info(f"pubmed file : clicked")
 
         upload_identiFILES_area = self.wait.until(EC.element_to_be_clickable(self.upload_identi_files_area_XPATH))
-        upload_identiFILES_area.clear()
         upload_identiFILES_area.send_keys(name)
+        self.logger.info(f"pubmed file : uploaded")
 
     def search_patent(self,name):
         patent_button = self.wait.until(EC.element_to_be_clickable(self.patent_button_XPATH))
         patent_button.click()
+        self.logger.info(f"patent file : clicked")
 
         upload_identiFILES_area = self.wait.until(EC.element_to_be_clickable(self.upload_identi_files_area_XPATH))
-        upload_identiFILES_area.clear()
         upload_identiFILES_area.send_keys(name)
+        self.logger.info(f"patent file : uploaded")
