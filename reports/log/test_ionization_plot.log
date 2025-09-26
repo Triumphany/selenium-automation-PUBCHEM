@@ -1,0 +1,83 @@
+2025-09-25 13:15:09 - INFO - PubChem_Periodic_Table_Ionization_Energy - Periodic Table button clicked from HOMEPAGE. 
+2025-09-25 13:15:12 - INFO - PubChem_Periodic_Table_Ionization_Energy - Ionization Energy window : is opened. 
+2025-09-25 13:15:12 - INFO - PubChem_Periodic_Table_Ionization_Energy - all : is selected. 
+2025-09-25 13:15:13 - INFO - PubChem_Periodic_Table_Ionization_Energy - period_1 : is selected. 
+2025-09-25 13:15:14 - INFO - PubChem_Periodic_Table_Ionization_Energy - period_2 : is selected. 
+2025-09-25 13:15:14 - INFO - PubChem_Periodic_Table_Ionization_Energy - period_3 : is selected. 
+2025-09-25 13:15:15 - INFO - PubChem_Periodic_Table_Ionization_Energy - period_4 : is selected. 
+2025-09-25 13:15:15 - INFO - PubChem_Periodic_Table_Ionization_Energy - period_5 : is selected. 
+2025-09-25 13:15:16 - INFO - PubChem_Periodic_Table_Ionization_Energy - period_6 : is selected. 
+2025-09-25 13:15:16 - INFO - PubChem_Periodic_Table_Ionization_Energy - period_7 : is selected. 
+2025-09-25 13:15:17 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_1 : is selected. 
+2025-09-25 13:15:17 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_2 : is selected. 
+2025-09-25 13:15:18 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_3 : is selected. 
+2025-09-25 13:15:18 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_4 : is selected. 
+2025-09-25 13:15:18 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_5 : is selected. 
+2025-09-25 13:15:19 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_6 : is selected. 
+2025-09-25 13:15:19 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_7 : is selected. 
+2025-09-25 13:15:20 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_8 : is selected. 
+2025-09-25 13:15:20 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_9 : is selected. 
+2025-09-25 13:15:20 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_10 : is selected. 
+2025-09-25 13:15:21 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_11 : is selected. 
+2025-09-25 13:15:21 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_12 : is selected. 
+2025-09-25 13:15:22 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_13 : is selected. 
+2025-09-25 13:15:22 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_14 : is selected. 
+2025-09-25 13:15:23 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_15 : is selected. 
+2025-09-25 13:15:23 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_16 : is selected. 
+2025-09-25 13:15:23 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_17 : is selected. 
+2025-09-25 13:15:24 - INFO - PubChem_Periodic_Table_Ionization_Energy - group_18 : is selected. 
+2025-09-25 13:15:33 - INFO - PubChem_Periodic_Table_Ionization_Energy - Periodic Table button clicked from HOMEPAGE. 
+2025-09-25 13:15:36 - INFO - PubChem_Periodic_Table_Ionization_Energy - Ionization Energy window : is opened. 
+2025-09-25 13:15:36 - INFO - PubChem_Periodic_Table_Ionization_Energy - All Elements : is selected. 
+2025-09-25 13:15:37 - INFO - PubChem_Periodic_Table_Ionization_Energy - Period 1 (Atomic Numbers: 1, 2) : is selected. 
+2025-09-25 13:15:37 - INFO - PubChem_Periodic_Table_Ionization_Energy - Period 2 (Atomic Numbers: 3, 4, 5, 6, 7, 8, 9, 10) : is selected. 
+2025-09-25 13:15:38 - INFO - PubChem_Periodic_Table_Ionization_Energy - Period 3 (Atomic Numbers: 11, 12, 13, 14, 15, 16, 17, 18) : is selected. 
+2025-09-25 13:15:38 - INFO - PubChem_Periodic_Table_Ionization_Energy - Period 4 (Atomic Numbers: 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36) : is selected. 
+2025-09-25 13:15:39 - INFO - PubChem_Periodic_Table_Ionization_Energy - Period 5 (Atomic Numbers: 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54) : is selected. 
+2025-09-25 13:15:39 - INFO - PubChem_Periodic_Table_Ionization_Energy - Period 6 (Atomic Numbers: 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86) : is selected. 
+2025-09-25 13:15:40 - INFO - PubChem_Periodic_Table_Ionization_Energy - Period 7 (Atomic Numbers: 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118) : is selected. 
+2025-09-25 13:15:41 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 1 (Atomic Numbers: 1, 3, 11, 19, 37, 55, 87) : is selected. 
+2025-09-25 13:15:41 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 2 (Atomic Numbers: 4, 12, 20, 38, 56, 88) : is selected. 
+2025-09-25 13:15:42 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 3 (Atomic Numbers: 21, 39, 71, 103) : is selected. 
+2025-09-25 13:15:42 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 4 (Atomic Numbers: 22, 40, 72, 104) : is selected. 
+2025-09-25 13:15:43 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 5 (Atomic Numbers: 23, 41, 73, 105) : is selected. 
+2025-09-25 13:15:44 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 6 (Atomic Numbers: 24, 42, 74, 106) : is selected. 
+2025-09-25 13:15:44 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 7 (Atomic Numbers: 25, 43, 75, 107) : is selected. 
+2025-09-25 13:15:44 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 8 (Atomic Numbers: 26, 44, 76, 108) : is selected. 
+2025-09-25 13:15:45 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 9 (Atomic Numbers: 27, 45, 77, 109) : is selected. 
+2025-09-25 13:15:45 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 10 (Atomic Numbers: 28, 46, 78, 110) : is selected. 
+2025-09-25 13:15:46 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 11 (Atomic Numbers: 29, 47, 79, 111) : is selected. 
+2025-09-25 13:15:46 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 12 (Atomic Numbers: 30, 48, 80, 112) : is selected. 
+2025-09-25 13:15:47 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 13 (Atomic Numbers: 5, 13, 31, 49, 81, 113) : is selected. 
+2025-09-25 13:15:47 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 14 (Atomic Numbers: 6, 14, 32, 50, 82, 114) : is selected. 
+2025-09-25 13:15:48 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 15 (Atomic Numbers: 7, 15, 33, 51, 83, 115) : is selected. 
+2025-09-25 13:15:48 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 16 (Atomic Numbers: 8, 16, 34, 52, 84, 116) : is selected. 
+2025-09-25 13:15:49 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 17 (Atomic Numbers: 9, 17, 35, 53, 85, 117) : is selected. 
+2025-09-25 13:15:49 - INFO - PubChem_Periodic_Table_Ionization_Energy - Group 18 (Atomic Numbers: 2, 10, 18, 36, 54, 86, 118) : is selected. 
+2025-09-25 13:16:00 - INFO - PubChem_Periodic_Table_Ionization_Energy - Periodic Table button clicked from HOMEPAGE. 
+2025-09-25 13:16:02 - INFO - PubChem_Periodic_Table_Ionization_Energy - Ionization Energy window : is opened. 
+2025-09-25 13:16:03 - INFO - PubChem_Periodic_Table_Ionization_Energy - 0 : is selected. 
+2025-09-25 13:16:03 - INFO - PubChem_Periodic_Table_Ionization_Energy - 1 : is selected. 
+2025-09-25 13:16:04 - INFO - PubChem_Periodic_Table_Ionization_Energy - 2 : is selected. 
+2025-09-25 13:16:04 - INFO - PubChem_Periodic_Table_Ionization_Energy - 3 : is selected. 
+2025-09-25 13:16:05 - INFO - PubChem_Periodic_Table_Ionization_Energy - 4 : is selected. 
+2025-09-25 13:16:05 - INFO - PubChem_Periodic_Table_Ionization_Energy - 5 : is selected. 
+2025-09-25 13:16:06 - INFO - PubChem_Periodic_Table_Ionization_Energy - 6 : is selected. 
+2025-09-25 13:16:06 - INFO - PubChem_Periodic_Table_Ionization_Energy - 7 : is selected. 
+2025-09-25 13:16:07 - INFO - PubChem_Periodic_Table_Ionization_Energy - 8 : is selected. 
+2025-09-25 13:16:08 - INFO - PubChem_Periodic_Table_Ionization_Energy - 9 : is selected. 
+2025-09-25 13:16:08 - INFO - PubChem_Periodic_Table_Ionization_Energy - 10 : is selected. 
+2025-09-25 13:16:09 - INFO - PubChem_Periodic_Table_Ionization_Energy - 11 : is selected. 
+2025-09-25 13:16:09 - INFO - PubChem_Periodic_Table_Ionization_Energy - 12 : is selected. 
+2025-09-25 13:16:10 - INFO - PubChem_Periodic_Table_Ionization_Energy - 13 : is selected. 
+2025-09-25 13:16:10 - INFO - PubChem_Periodic_Table_Ionization_Energy - 14 : is selected. 
+2025-09-25 13:16:11 - INFO - PubChem_Periodic_Table_Ionization_Energy - 15 : is selected. 
+2025-09-25 13:16:11 - INFO - PubChem_Periodic_Table_Ionization_Energy - 16 : is selected. 
+2025-09-25 13:16:12 - INFO - PubChem_Periodic_Table_Ionization_Energy - 17 : is selected. 
+2025-09-25 13:16:13 - INFO - PubChem_Periodic_Table_Ionization_Energy - 18 : is selected. 
+2025-09-25 13:16:13 - INFO - PubChem_Periodic_Table_Ionization_Energy - 19 : is selected. 
+2025-09-25 13:16:14 - INFO - PubChem_Periodic_Table_Ionization_Energy - 20 : is selected. 
+2025-09-25 13:16:14 - INFO - PubChem_Periodic_Table_Ionization_Energy - 21 : is selected. 
+2025-09-25 13:16:15 - INFO - PubChem_Periodic_Table_Ionization_Energy - 22 : is selected. 
+2025-09-25 13:16:16 - INFO - PubChem_Periodic_Table_Ionization_Energy - 23 : is selected. 
+2025-09-25 13:16:17 - INFO - PubChem_Periodic_Table_Ionization_Energy - 24 : is selected. 
