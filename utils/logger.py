@@ -11,7 +11,7 @@ def get_logger(name=__name__):
 
     # Prevent duplicate handlers if called multiple times
     if not logger.handlers:
-        file_handler = logging.FileHandler("reports/log/test_log.log")
+        file_handler = logging.FileHandler(f"reports/log/{name}.log")
         formatter = logging.Formatter(
             "%(asctime)s - %(levelname)s - %(name)s - %(message)s",
             datefmt="%Y-%m-%d %H:%M:%S"
