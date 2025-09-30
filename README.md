@@ -58,7 +58,7 @@ The goal is to streamline repetitive research tasks, improve testing reliability
 
 
 ```bash
- PUG_REST_PubChem/
+ selenium-automation-PUBCHEM/
   │── data_files/       # user-uploaded input files
   │── excel_files/
   ├── pages/            # POM definitions for PubChem automation
