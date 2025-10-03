@@ -58,7 +58,10 @@ The goal is to streamline repetitive research tasks, improve testing reliability
 
 
 ```bash
- PUG_REST_PubChem/
+ selenium-automation-PUBCHEM/
+  │── batch_scripts/
+  │   ├── run_all_tests.bat                 # Runs all tests in one command
+  │   ├── run_individual_test.bat           # Single file running all tests
   │── data_files/       # user-uploaded input files
   │── excel_files/
   ├── pages/            # POM definitions for PubChem automation
